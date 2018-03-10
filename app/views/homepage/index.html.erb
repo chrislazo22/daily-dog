@@ -1,3 +1,7 @@
-<h1>Daily Dog</h1>
-<%= form_tag({ controller: :homepage, action: :get_photo }) %>
-<%= submit_tag("Get a Dog Photo") %>
+<div class="row center">
+  <h1>Daily Dog</h1>
+</div>
+<div class="row center">
+  <%= form_tag({ controller: :homepage, action: :get_photo }) %>
+  <%= submit_tag "Get a Dog Photo", :class => "waves-effect waves-light btn" %>
+</div>
