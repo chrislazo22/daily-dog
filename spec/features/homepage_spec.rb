@@ -7,3 +7,13 @@ describe "homepage" do
     click_button("Get a Dog Photo")
   end
 end
+
+describe "get photo" do
+  it "display a dog photo" do
+    visit root_path
+
+    click_button("Get a Dog Photo")
+
+    expect(page).to have_css('img')
+  end
+end

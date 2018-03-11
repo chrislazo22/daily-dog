@@ -31,3 +31,4 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'httparty', '~> 0.16.0'
+gem "paperclip", "~> 5.2.1"
