@@ -3,6 +3,14 @@ class HomepageController < ApplicationController
   end
 
   def get_photo
-    @response = HTTParty.get("https://dog.ceo/api/breeds/image/random")
+    @photo = HTTParty.get("https://dog.ceo/api/breeds/image/random")
+
+    if @photo.present?
+      respond_to do |format|
+        format.js
+      end
+    else
+      redirect_to root_path
+    end
   end
 end

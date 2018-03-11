@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root to: "homepage#index"
+  root "homepage#index"
   post 'homepage/get_photo'
 end
