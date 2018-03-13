@@ -1,24 +1,6 @@
-# README
+# Daily Dog Photos
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Daily Dog application allows users to have dog pictures sent to them via text message every morning for your daily dose of puppy happiness.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Author
+Christian Lazo
